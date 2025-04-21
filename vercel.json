@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "name": "iChat",
+    "public": true,
+    "builds": [],
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/index.html"
+      }
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false
+  }
+  
